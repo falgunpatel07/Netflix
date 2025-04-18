@@ -126,7 +126,7 @@ const LoginSignUp = () => {
     <div className="container">
       {Login ? <>
         <form className='login-card'>
-        <p>Welcome to <br/> <span className='flicker'>Aniverse</span></p>
+        <p>Welcome to <br/> <span className='flicker'>Netflix</span></p>
         
         <input type="email" placeholder="Email" onChange={(e) => setLoginData({ ...loginData, email: e.target.value })} value={loginData.email}/><br/>
         <input type="password" placeholder="Password" onChange={(e) => setLoginData({ ...loginData, password: e.target.value })} value={loginData.password}/><br/>
@@ -138,7 +138,7 @@ const LoginSignUp = () => {
       :
 <>
     <form className='signin-Card'>
-    <p>Welcome to <br/> <span className='flicker'>Aniverse</span></p>
+    <p>Welcome to <br/> <span className='flicker'>Netflix</span></p>
     <input type="text" placeholder="Display Name" onChange={(e) => setSignUpData({ ...signUpData, displayName: e.target.value })} value={signUpData.displayName}/><br/>
     <input type="email" placeholder="Email" onChange={(e) => setSignUpData({ ...signUpData, email: e.target.value })} value={signUpData.email}/><br/>
     <input type="password" placeholder="Password" onChange={(e) => setSignUpData({ ...signUpData, password: e.target.value })} value={signUpData.password}/><br/>
