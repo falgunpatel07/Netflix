@@ -65,7 +65,7 @@ const Dashboard = () => {
       <div className="App">
         <header className="dark-mode">
           <div className="logo-search">
-            <h1 className="dark-mode flicker">Netflix</h1>
+            <h1 className="dark-mode flicker">Shiksha</h1>
             <input
               className='search-bar'
               type="text"
