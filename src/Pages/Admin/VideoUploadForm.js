@@ -76,7 +76,7 @@ const VideoUploadForm = () => {
     <>
       <header className="dark-mode">
         <div className="logo-search">
-        <h1 className="dark-mode flicker">Shiksha</h1>
+        <span style={{fontWeight: 'bold'}}>Shiksha</span>
         
         </div>
         <div className="user-actions">

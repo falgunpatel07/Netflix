@@ -65,11 +65,11 @@ const Dashboard = () => {
       <div className="App">
         <header className="dark-mode">
           <div className="logo-search">
-            <h1 className="dark-mode flicker">Shiksha</h1>
+          <span style={{fontWeight: 'bold'}}>Shiksha</span>
             <input
               className='search-bar'
               type="text"
-              placeholder="Search movies..."
+              placeholder="Search videos..."
               onChange={(e) => {
                 setSearchTerm(e.target.value);
               }}
